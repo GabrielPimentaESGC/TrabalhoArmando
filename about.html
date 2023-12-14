@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+            background: linear-gradient(to bottom, #4B0082, #483D8B, #6A5ACD, #9370DB, #D8BFD8, #fff);
+        }
+
+        .brand-logo {
+            max-width: 400px;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        .brand-info {
+            text-align: center;
+            max-width: 500px;
+            margin-top: -20px; /* Adjust this value as needed */
+            color: white;
+        }
+
+        .brand-info h1 {
+            color: white; /* Set color to white */
+        }
+
+        .brand-info strong {
+            font-weight: bold;
+            color: black;
+        }
+
+        .brand-info p {
+            color: black;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-image: radial-gradient(red 8px, transparent 10px),
+                              radial-gradient(red 8px, transparent 10px);
+            background-size: 16px 16px;
+            background-position: 8px 8px, 0 0;
+        }
+
+        .back-button:hover {
+            background-color: #333;
+        }
+
+        .back-button a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="brand-logo">
+        <img src="img/genzisemfundo.png" alt="Brand Logo">
+    </div>
+
+    <div class="brand-info">
+        <h1>About Our Brand</h1>
+        <p>
+            Welcome to our brand! We aspire to be a global impact player in streetwear and fashion. Our goal is to influence and shape the fashion landscape worldwide.
+        </p>
+        <p>
+            At our core, we believe in <strong>creativity</strong>, <strong>individuality</strong>, and the power of self-expression through fashion. Join us in making a statement that resonates globally.
+        </p>
+        <p>
+            Feel free to reach out to us on our <strong><a href="contact.html">Contact Us</a></strong> page.
+        </p>
+    </div>
+
+    <button class="back-button"><a href="index.html">Go Back to Homepage</a></button>
+
+</body>
+</html>

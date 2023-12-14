@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>GenZi</h1>
+    <p>Introduz o teu endereço de e-mail para iniciar sessão.</p>
+    <form id="loginForm">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" autocomplete="current-password" required>
+        <button type="submit">Entrar</button>
+    </form>
+    <p class="feedback not-found" style="display: none; color: black;">Usuário não encontrado. Verifique o email fornecido.</p>
+    <p class="register-link">Ainda não tem conta? <a class="register-anchor" href="register.html">Registrar</a></p>
+  </div>
+
+</body>
+</html>
